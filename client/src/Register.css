@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;700&display=swap');
+
+.register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.register-card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-title {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1f2937;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.form-input{
+    width: 96%;
+    padding: 5px;
+    border: 1px solid #d1d5db;
+    border-radius: 2px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 8px;
+}
+
+.signup-text {
+    text-align: right;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.signup-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.message {
+    text-align: center;
+    margin-top: 12px;
+    color: #dc2626; 
+    font-size: 14px;
+}
