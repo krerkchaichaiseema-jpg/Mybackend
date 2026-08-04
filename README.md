@@ -1,1 +1,1 @@
-https://frontend-sbwd.vercel.app/ 
+https://frontend-sbwd.vercel.app/  deploy บน vercel
